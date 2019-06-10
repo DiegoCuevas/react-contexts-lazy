@@ -9,8 +9,8 @@ function FormPeer({ addPeer, step }) {
     q1: "",
     q2: "",
     q3: "",
-    "q4-a": "",
-    "q4-b": "",
+    q4A: "",
+    q4B: "",
     q5: "",
     q6: "",
     q7: ""
@@ -24,8 +24,8 @@ function FormPeer({ addPeer, step }) {
       q1: "",
       q2: "",
       q3: "",
-      "q4-a": "",
-      "q4-b": "",
+      q4A: "",
+      q4B: "",
       q5: "",
       q6: "",
       q7: ""
