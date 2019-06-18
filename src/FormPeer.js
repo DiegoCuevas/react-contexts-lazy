@@ -2,8 +2,13 @@ import React from "react";
 import InputText from "./InputText";
 import InputTextArea from "./InputTextArea";
 import InputRadio from "./InputRadio";
+import AddPeerContext from "./contexts/AddPeer"
+import StepContext from "./contexts/Step"
 
-function FormPeer({ addPeer, step }) {
+function FormPeer() {
+  const addPeer = React.useContext(AddPeerContext)
+  const step = React.useContext(StepContext)
+  console.log(step);
   const [fields, setFields] = React.useState({
     name: "",
     q1: "",
